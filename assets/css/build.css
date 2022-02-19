@@ -1,0 +1,32 @@
+* {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    text-decoration:none;
+}
+
+body, html {
+    background:rgb(2, 2, 2);
+    color:white;
+    font-family:Apato,"Helvetica Neue",Arial,sans-serif;
+}
+
+.whitecursor {
+    cursor:url("../media/cursor.png"), default;
+}
+
+.blackcursor {
+    cursor:url("../media/cursor_black.png"), auto;
+}
+
+@font-face {
+	font-family: "Gerstner Programm";
+	src: url("../fonts/GerstnerProgrammCCSPWeb-Medium.woff2") format("woff2"),
+		url("../fonts/GerstnerProgrammCCSPWeb-Medium.woff") format("woff");
+	font-display: block;
+	font-style: normal;
+	font-weight: 500;
+}
